@@ -7,5 +7,5 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 def get_the_min(groceries)
-  groceries.keys.min
+  groceries.values.min
 end
